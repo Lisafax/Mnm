@@ -57,7 +57,7 @@ module.exports = {
 
         api.sendMessage(
           {
-            body: `${data.cp || null}\n✅ | Link: ${url || null}`,
+            body: `${data.cp || null}\n✅ | Link: ${url || null} | 𝗟𝗶𝗸𝗲𝘀: ${selectedTrack.likeCount}\n\n`,
 
             attachment: fs.createReadStream(path),
           },
